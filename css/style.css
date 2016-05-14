@@ -1,0 +1,204 @@
+article, div, nav, footer, header{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+header{
+       background-color: #2B3E4F;
+}
+
+header nav{
+    padding: 15px;
+    overflow: auto;
+    color: white;
+}
+
+.menu{
+    padding-top: 17px;
+}
+
+nav .menu{
+    float: right;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover{
+    color: grey;
+}
+
+.container h2{
+    padding: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.banner{
+    background-color: #00BD9D;
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+
+.banner .container img{
+    border-radius: 50%;
+}
+
+.banner .container h1{
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.banner .container p{
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.portfolio{
+    padding: 70px 0;
+}
+
+.cuadrado{
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    background-color: pink;
+    margin: 1.25%;
+}
+
+.container h3{
+    text-align: center;
+    font-size: 40px;
+    color: #2B3C4E;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about{
+    background-color: #00BD9D;
+}
+
+.portfolio.about .container h3{
+    color: white;   
+}
+
+.parrafo{
+    display: inline-block;
+    width: 47%;
+    color: white;
+    line-height: 30px;
+    font-size: 23px;
+    margin: 1%;
+}
+
+form input{
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-top: 1px solid grey;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.boton{
+    color: white;
+    background-color: #00BD9D;
+    width: 15%;
+    height: 50px;  
+    margin-top: 10px;
+    border-radius: 10%;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #2B3E4F;
+    color: white;
+}
+
+footer h5{
+     text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+footer p{
+    line-height: 24px;
+}
+
+.footer{
+    display: inline-block;
+    width: 29%;
+    text-align: center;
+}
+
+.footer2{
+    display: inline-block;
+    text-align: center;
+    width: 69%;
+}
+
+.iconos1{
+    font-size: 25px;
+    color: white;
+    line-height: 38px;
+ }  
+
+.iconos li{
+    display: inline-block;
+    margin: 8px;
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+
+}
+
+.last{
+    background-color: #213140;
+    text-align: center;
+    padding: 25px;
+    color: white;
+
+}
+
+@media screen and (max-width: 720px){
+   nav .menu{
+    float: none;
+    padding: 0;
+    margin-top: 30px;
+    } 
+
+    nav .menu li:first-child{
+        margin-left: 13px;
+    }
+}
+
