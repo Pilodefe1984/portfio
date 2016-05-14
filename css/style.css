@@ -1,7 +1,6 @@
 article, div, nav, footer, header{
     box-sizing: border-box;
 }
-
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -250,14 +249,7 @@ footer p{
 
     nav .menu li {
         display: block;
-    }  
-
-    nav .menu li:first-child{
-        margin-left: 40px;
-
-    }
-
-    nav .menu li {
+        margin-left: 0px;
         margin-top:8px;
     }
 
